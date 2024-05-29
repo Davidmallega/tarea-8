@@ -1,0 +1,29 @@
+/proyecto
+├── /config
+│   └── conexion_maria_auxiliadora.php
+├── /controladores
+│   ├── controlador_registro_asistencias.php
+│   ├── controlador_registro_docentes.php
+│   ├── controlador_consulta_docentes.php
+│   ├── controlador_editar_asistencia.php
+│   ├── controlador_eliminar_asistencia.php
+│   ├── controlador_tabla_reportes.php
+│   └── controlador_reportes_docentes.php
+├── /modelos
+│   ├── modelo_consulta_docentes.php
+│   ├── modelo_consulta_reportes_docentes.php
+│   ├── modelo_registro_asistencias.php
+│   └── modelo_registro_docentes.php
+├── /vistas
+│   ├── index_menu_principal.html
+│   ├── vista_registro_asistencias.html
+│   ├── vista_registro_docentes.html
+│   ├── vista_reportes_docentes.html
+│   ├── vista_mensajes.css
+│   ├── vista_estilos.css
+│   └── vista_fondos.css
+└── /scripts
+│   ├── vista_controlador_foto.js
+│   ├── vista_controlador_reportes.js
+│   ├── vista_controlador_pdf.js
+│   └── vista_mesnajes_registro_docentes.js

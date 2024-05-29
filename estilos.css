@@ -1,0 +1,194 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* General Container Styles */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+/* Report Container Styles */
+.container-reporte {
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Increased max-width to accommodate the table */
+    width: 100%;
+    text-align: center;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+.container-registro {
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjusted width for the registro form */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+/* Heading Styles */
+h1 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Label Styles */
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input and Select Styles */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+input[type="submit"],
+button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    margin-top: 10px; /* Reduced margin */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background: #0056b3;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Additional Styles */
+button {
+    margin-top: -10px; /* Reduced margin */
+}
+
+.editar-btn {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editar-btn:hover {
+    background-color: #367f3a; /* Verde más oscuro */
+}
+
+.eliminar-btn {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568); 
+}
+
+.eliminar-btn:hover {
+    background-color: #c30f0c; /* Rojo más oscuro */
+}
+
+/* Button Styles */
+.btn-registrar,
+.btn-reportes,
+.btn-volver {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    margin-top: 3px; /* Reduced margin */
+}
+
+.foto-leyenda-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.foto-leyenda-container img {
+    margin-right: 10px; /* Espacio entre la imagen y la leyenda */
+
+}
+
+.foto-docente {
+    border-radius: 10px; /* Ajusta el valor según tus necesidades */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568); /* Ajusta estos valores según el efecto de sombra deseado */
+}
